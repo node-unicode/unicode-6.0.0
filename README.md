@@ -45,6 +45,9 @@ const bidiClassMap = require('@unicode/unicode-6.0.0/Bidi_Class');
 // Get the directionality of a given code point:
 const directionality = require('@unicode/unicode-6.0.0/Bidi_Class').get(0x41);
 
+// What glyph is the mirror image of `«` (U+00AB)?
+const mirrored = require('@unicode/unicode-6.0.0/Bidi_Mirroring_Glyph').get(0xAB);
+
 // …you get the idea.
 ```
 
@@ -2165,6 +2168,10 @@ require('@unicode/unicode-6.0.0/Block/Yi_Syllables/regex.js');
 require('@unicode/unicode-6.0.0/Block/Yijing_Hexagram_Symbols/code-points.js');
 require('@unicode/unicode-6.0.0/Block/Yijing_Hexagram_Symbols/symbols.js');
 require('@unicode/unicode-6.0.0/Block/Yijing_Hexagram_Symbols/regex.js');
+
+// `Bidi_Mirroring_Glyph`:
+
+require('@unicode/unicode-6.0.0/Bidi_Mirroring_Glyph').get(codePoint); // lookup map
 
 // `Line_Break`:
 
