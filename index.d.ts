@@ -6,6 +6,8 @@ export const Script_Extensions: string[];
 export const Case_Folding: string[];
 export const Block: string[];
 export const Bidi_Mirroring_Glyph: string[];
+export const Indic_Matra_Category: string[];
+export const Indic_Syllabic_Category: string[];
 export const Line_Break: string[];
 export const Grapheme_Cluster_Break: string[];
 export const Word_Break: string[];
