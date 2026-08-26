@@ -1,0 +1,1 @@
+export default /[\u1B80-\u1BAA\u1BAE-\u1BB9]/;
