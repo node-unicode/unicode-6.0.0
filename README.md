@@ -63,6 +63,7 @@ Other than categories, data on Unicode properties, blocks, scripts, and script e
 // `Names`:
 
 import names from '@unicode/unicode-6.0.0/Names/index.mjs'; // Array of canonical names.
+import Correction from '@unicode/unicode-6.0.0/Names/Correction/index.mjs'; // Lookup map from code point to aliases.
 
 
 // `General_Category`:
@@ -435,9 +436,9 @@ import RadicalCodePoints from '@unicode/unicode-6.0.0/Binary_Property/Radical/co
 import RadicalSymbols from '@unicode/unicode-6.0.0/Binary_Property/Radical/symbols.mjs';
 import RadicalRegex from '@unicode/unicode-6.0.0/Binary_Property/Radical/regex.mjs';
 
-import STermCodePoints from '@unicode/unicode-6.0.0/Binary_Property/STerm/code-points.mjs';
-import STermSymbols from '@unicode/unicode-6.0.0/Binary_Property/STerm/symbols.mjs';
-import STermRegex from '@unicode/unicode-6.0.0/Binary_Property/STerm/regex.mjs';
+import Sentence_TerminalCodePoints from '@unicode/unicode-6.0.0/Binary_Property/Sentence_Terminal/code-points.mjs';
+import Sentence_TerminalSymbols from '@unicode/unicode-6.0.0/Binary_Property/Sentence_Terminal/symbols.mjs';
+import Sentence_TerminalRegex from '@unicode/unicode-6.0.0/Binary_Property/Sentence_Terminal/regex.mjs';
 
 import Soft_DottedCodePoints from '@unicode/unicode-6.0.0/Binary_Property/Soft_Dotted/code-points.mjs';
 import Soft_DottedSymbols from '@unicode/unicode-6.0.0/Binary_Property/Soft_Dotted/symbols.mjs';
@@ -1926,6 +1927,10 @@ import NKoRegex from '@unicode/unicode-6.0.0/Block/NKo/regex.mjs';
 import New_Tai_LueCodePoints from '@unicode/unicode-6.0.0/Block/New_Tai_Lue/code-points.mjs';
 import New_Tai_LueSymbols from '@unicode/unicode-6.0.0/Block/New_Tai_Lue/symbols.mjs';
 import New_Tai_LueRegex from '@unicode/unicode-6.0.0/Block/New_Tai_Lue/regex.mjs';
+
+import No_BlockCodePoints from '@unicode/unicode-6.0.0/Block/No_Block/code-points.mjs';
+import No_BlockSymbols from '@unicode/unicode-6.0.0/Block/No_Block/symbols.mjs';
+import No_BlockRegex from '@unicode/unicode-6.0.0/Block/No_Block/regex.mjs';
 
 import Number_FormsCodePoints from '@unicode/unicode-6.0.0/Block/Number_Forms/code-points.mjs';
 import Number_FormsSymbols from '@unicode/unicode-6.0.0/Block/Number_Forms/symbols.mjs';

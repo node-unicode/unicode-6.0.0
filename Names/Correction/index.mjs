@@ -1,0 +1,3 @@
+import { brotliDecompressSync } from 'node:zlib';
+
+export default JSON.parse(brotliDecompressSync(Buffer.from('H7EBACwK7FgGTrijwTXe5H4psrVnc4bTStx/Gc4vIhEhQdrEurGt71iRlHC7OTuVTlex9E2dO3+ObTijUkvrBmtL0plHgrp51c+Bwuo8/tCdEQpplHpkUaWMYdZkomVjePNs2KpymhpeuOODSsxMVBFZI8occai++RLicpWb0eQyMJqDaj7tXHAgmh/7wkNnhpAobQlKufAnkQV9+krnmqEbkxYnSmOCYHX3Gr1iNVKNyH1RIK6KaFVFupqhsTf+fA1JPfEurhZAv47P/cNLnfOvKiVG8/KoGQk6yzTD6Z0ZG/SDsTpt', 'base64')));
